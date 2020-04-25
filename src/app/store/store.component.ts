@@ -25,6 +25,7 @@ export class StoreComponent {
   }
 
   changeCategory(newCategory?: string) {
+    //console.log('change category. New value:' + newCategory)
     this.selectedCategory = newCategory
   }
 
